@@ -43,12 +43,16 @@ define_struct!(Person {
 3. Macro para generar código de prueba
 
 ```rust
-rustCopy code#[macro_export]
+#[macro_export]
 macro_rules! assert_approx_eq {
     ($a:expr, $b:expr) => {{
         let eps = 1.0e-6;
         let diff = ($a - $b).abs();
         assert!(diff < eps, "{} is not approximately equal to {}", $a, $b);
+    }};
+    ($a:expr, $b:expr, $eps:expr) => {{
+        let diff = ($a - $b).abs();
+        assert!(diff < $eps, "{} is not approximately equal to {} within an epsilon of {}", $a, $b, $eps);
     }};
 }
 ```
