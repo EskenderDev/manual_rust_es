@@ -1,4 +1,4 @@
-# Documentaciones
+# Documentacion
 
 Para aprender más sobre los conceptos mencionados en mis respuestas, te recomiendo los siguientes recursos:
 

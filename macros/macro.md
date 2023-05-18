@@ -1,6 +1,6 @@
 # Macro
 
-las macros son constructos de programación que permiten la generación de código en tiempo de compilación. Las macros se utilizan para automatizar tareas repetitivas, reducir la cantidad de código necesario para realizar una tarea y mejorar la legibilidad del código.
+Las macros son constructos de programación que permiten la generación de código en tiempo de compilación. Las macros se utilizan para automatizar tareas repetitivas, reducir la cantidad de código necesario para realizar una tarea y mejorar la legibilidad del código.
 
 Las macros en Rust se definen utilizando la palabra clave `macro_rules!`, seguida de un patrón y un cuerpo. El patrón se utiliza para especificar cómo se deben buscar y reemplazar las partes del código, mientras que el cuerpo especifica lo que debe hacer la macro.
 
