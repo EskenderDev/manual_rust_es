@@ -50,10 +50,10 @@ macro_rules! assert_approx_eq {
         let diff = ($a - $b).abs();
         assert!(diff < eps, "{} is not approximately equal to {}", $a, $b);
     }};
-    ($a:expr, $b:expr, $eps:expr) => {{
+    /*($a:expr, $b:expr, $eps:expr) => {{
         let diff = ($a - $b).abs();
         assert!(diff < $eps, "{} is not approximately equal to {} within an epsilon of {}", $a, $b, $eps);
-    }};
+    }};*/
 }
 ```
 
