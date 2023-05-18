@@ -6,3 +6,4 @@ description: >-
 
 # Rust
 
+Documentación personal, no hay ningún vinculo con la Rust Fundation y esta documen
