@@ -1,9 +1,7 @@
 ---
-description: >-
-  Documentacion generada por chatgpt y editada por Alejandro Miranda Rodriguez
-  (EskenderDev)
+description: Documentación generada por chatgpt.
 ---
 
 # Rust
 
-Documentación personal, no hay ningún vinculo con la Rust Fundation y esta documen
+Documentación personal, no hay ningún vínculo con la Rust Fundation.
